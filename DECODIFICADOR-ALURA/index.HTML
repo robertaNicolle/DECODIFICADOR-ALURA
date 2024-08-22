@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="./styles.css">
+    <title>Decodificador-Alura</title>
+    
+    
+</head>
+
+<body>
+    <header class="logo_da_alura">
+        <img src="images.png/Frame.png.svg" alt="logo da alura">
+    </header>
+
+    <main>
+        <div class="flex__container">
+        <div class="codificador">
+        <div class="area__de__codificacao">
+            <input class="texto__entrada" id="texto-original" type="text" placeholder="Digite seu texto">
+            <div class="box__alerta">
+                <img src="./images.png/Group.png.png" width="16px" height="16px" alt="ponto de exclamacao">
+                <p class="alerta">Apenas letras minúsculas e sem acento</p>
+            </div> 
+            <div class="botoes__codificador">
+            <div> 
+                        <button onclick="esconder('conteudo')" id="criptografar" class="botao__cod" >Codificar</button></div>
+            <div> 
+                        <button onclick="esconder('conteudo')" id="descriptografar" class="botao__cod" >Decodificar</button>
+            </div>
+        </div>
+                    
+        </div>
+    
+        </div>
+            <div class="decodificador">
+                <textarea name="" id="resultado"></textarea>
+                <img class="bonequinha" src="./images.png/bonequinha.png.svg">
+                <p class="texto__decodificador"><strong>Nenhuma mensagem <br> encontrada</strong></p><br>
+                <div class="texto__comando">Digite um texto que você deseja <br> criptografar ou descriptografar.</div>
+            
+                <button onclick="" id="btn_copiar" class="botao__copiar">Copiar</button>
+            
+                
+        </div> 
+            
+        </div>
+        
+    </main>
+    
+
+    <footer class="desenvolvedora">
+        <p>Desenvolvido por Roberta Nicolle 2024</p>
+    </footer>
+
+</body>
+    <script src="app.js" defer></script>
+
+</html>
